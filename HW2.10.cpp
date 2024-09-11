@@ -26,10 +26,10 @@ int main() {
 	cout << "The price of gas per gallon: ";
 	cin >> price_per_gallon;
 
-	int cost_per_100miles;
+	double cost_per_100miles;
 	cost_per_100miles = (100 / miles_per_gallon) * price_per_gallon;
 
-	int distance = gallons * miles_per_gallon;
+	double distance = gallons * miles_per_gallon;
 	cout << "The cost per 100 miles is" << " " << "$" << cost_per_100miles << " " << "and the car can go" << " " << distance << " " << "miles with the gas in the tank";
 
 	return 0;
